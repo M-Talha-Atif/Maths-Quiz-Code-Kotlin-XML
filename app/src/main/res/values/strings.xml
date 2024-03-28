@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">quizApp</string>
+    <string name="enter_your_email">Enter your email!!</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="signup">SignUp</string>
+    <string name="old_user_click_here_to_login">Old User? Click here to Login</string>
+    <string name="quiz">Quiz</string>
+    <string name="restart">Restart</string>
+    <string name="result">Result</string>
+    <string name="home">Log Out</string>
+    <string name="submit_guess">Submit Guess</string>
+    <string name="your_guess">Your Guess</string>
+    <string name="score_0">Score: 0</string>
+    <string name="equation">Equation</string>
+    <string name="login">Login</string>
+    <string name="new_user_click_here_to_sign_up">New User? Click here to Sign Up</string>
+</resources>

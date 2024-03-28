@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MathsQuiz"
+    android:orientation="vertical">
+
+    <!-- Score TextView -->
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_0"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Equation TextView -->
+    <TextView
+        android:id="@+id/textViewEquation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equation"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- EditText for user input -->
+    <EditText
+        android:id="@+id/editTextAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="48sp"
+        android:textSize="25sp"
+        android:inputType="numberSigned"
+        android:hint="@string/your_guess"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="__Answer__" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/submit_guess"
+        tools:ignore="TextContrastCheck" />
+    <!-- Home Button -->
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="100sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/home"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>
